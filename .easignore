@@ -1,0 +1,59 @@
+# Node modules (don't upload this)
+
+node_modules/
+
+# IDE/editor files
+
+.vscode/
+.idea/
+*.log
+
+# Test files and output
+
+__tests__/
+coverage/
+jest.config.js
+
+# OS & metadata files
+
+.DS_Store
+Thumbs.db
+
+# Build outputs
+
+android/app/build/
+android/build/
+ios/build/
+web-build/
+dist/
+build/
+*.apk
+*.aab
+
+# Local configuration
+
+.env
+.env.*
+*.keystore
+*.key
+*.pem
+
+# Unused or raw assets
+
+*.psd
+*.ai
+*.sketch
+*.xcf
+
+# Media (if not needed in production)
+
+*.mp4
+*.mov
+
+# Other large files
+
+*.zip
+*.bak
+*.tmp
+*.sqlite
+*.csv

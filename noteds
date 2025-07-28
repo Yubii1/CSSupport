@@ -1,0 +1,8 @@
+{/* <View style={styles.grid}>
+        {['Ante', 'Juliet', 'John', 'Ebuka'].map((name, i) => (
+          <View key={i} style={styles.card}>
+            <Text>{name}</Text>
+          </View>
+        ))}
+      </View> */}
+     {/* <Button title="Next" onPress={() => navigation.navigate('Home')} /> */}
