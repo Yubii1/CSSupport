@@ -1,50 +1,87 @@
-# Welcome to your Expo app 👋
+# CSSupport 📱
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+CSSupport is a cross-platform mobile support ticketing app built for IT departments and user support teams. The app enables users to submit issue reports and track their resolution progress, while team leads and IT staff can view, assign, and manage support tickets.
 
-## Get started
+---
 
-1. Install dependencies
+## ✨ Features
 
-   ```bash
-   npm install
-   ```
+- 📋 Submit and track IT support requests
+- 👤 Role-based access (Users, Team Leads)
+- 🔔 Real-time announcements for teams
+- 📈 Monthly reporting features (e.g., via Excel uploads)
+- 🔐 Secure authentication
+- 📱 Mobile-first UI with Expo and React Native
 
-2. Start the app
+---
 
-   ```bash
-   npx expo start
-   ```
+## 🧰 Tech Stack
 
-In the output, you'll find options to open the app in a
+| Layer            | Technology                          |
+|------------------|--------------------------------------|
+| Frontend         | React Native + Expo + TypeScript     |
+| Backend          | Supabase (Auth, DB, Storage, Functions) |
+| Routing          | Expo Router (File-based navigation)  |
+| State Management | React Context API                    |
+| Storage          | Supabase File Storage (e.g., uploads)|
+| Dev Tools        | Git, GitHub, ESLint, Prettier        |
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+---
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## 🚀 Getting Started
 
-## Get a fresh project
-
-When you're ready, run:
+### 1. Clone the repository
 
 ```bash
-npm run reset-project
-```
+git clone git@github.com:Yubii1/CSSupport.git
+cd CSSupport
+2. Install dependencies
+bash
+Copy code
+npm install
+3. Start the development server
+bash
+Copy code
+npx expo start
+Make sure you have the Expo Go app installed on your mobile device.
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+📁 Folder Structure
+bash
+Copy code
+CSSupport/
+├── app/              # All screens and routes
+├── components/       # Reusable UI components
+├── lib/              # Supabase client and utilities
+├── assets/           # Fonts, images, etc.
+├── .expo/            # Expo-specific configs
+└── .gitignore
+⚙️ Available Scripts
+Script Purpose
+npm run lint Run ESLint
+npm run reset-project Reset project and clean app dir
+npx expo start Start local dev server
 
-## Learn more
+📦 Supabase Setup
+Create a Supabase project at https://supabase.com
 
-To learn more about developing your project with Expo, look at the following resources:
+Copy your SUPABASE_URL and SUPABASE_ANON_KEY into a .env file:
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
+ini
+Copy code
+SUPABASE_URL=your_url_here
+SUPABASE_ANON_KEY=your_key_here
+📚 Learn More
+React Native
 
-## Join the community
+Expo Documentation
 
-Join our community of developers creating universal apps.
+Supabase Docs
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Expo Router
+
+🧑‍💻 Author
+Ubong Smartz
+GitHub: @Yubii1
+
+📝 License
+MIT — Feel free to use, fork, and improve the app

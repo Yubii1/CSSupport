@@ -1,0 +1,6 @@
+# Ignore build and config files when detecting language
+*.js linguist-detectable=false
+*.jsx linguist-detectable=false
+metro.config.js linguist-detectable=false
+babel.config.js linguist-detectable=false
+jest.config.js linguist-detectable=false
