@@ -1,6 +1,10 @@
-# Ignore build and config files when detecting language
-*.js linguist-detectable=false
-*.jsx linguist-detectable=false
-metro.config.js linguist-detectable=false
-babel.config.js linguist-detectable=false
-jest.config.js linguist-detectable=false
+# Ignore build and output folders
+dist/* linguist-vendored
+build/* linguist-vendored
+web-build/* linguist-vendored
+.expo/* linguist-vendored
+node_modules/* linguist-vendored
+
+# Optional: mark your TypeScript code as the main language
+*.ts linguist-language=TypeScript
+*.tsx linguist-language=TypeScript
